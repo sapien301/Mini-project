@@ -1,0 +1,332 @@
+.hello
+{
+    width: 100%;
+    font-size: 32px;
+   background-image: url("https://res-1.cloudinary.com/enchanting/et-web/2015/05/Bangalore-1.jpg");
+    text-decoration-line: none;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 200px 0px 100px 0px ;
+    animation: fade;
+    margin: 10px 0px 0px 0px;
+    background-size: 1500px 400px;
+
+
+    
+        animation: fadeIn ease 5s;
+        -webkit-animation: fadeIn ease 5s;
+        -moz-animation: fadeIn ease 5s;
+        -o-animation: fadeIn ease 5s;
+        -ms-animation: fadeIn ease 5s;
+        animation-iteration-count: 1; 
+           
+        cursor: pointer;
+        }
+        @keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+        }
+        
+        @-moz-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+        }
+        
+        @-webkit-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+        }
+        
+        @-o-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+        }
+        
+        @-ms-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+        }
+
+ 
+
+.hi
+{
+    width: 100%;
+    font-size: 32px;
+    color: rgba(169, 169, 169, 0.575);
+    background-image:url("http://1.bp.blogspot.com/-hGf2WRISwbE/UprjXjZeVSI/AAAAAAAAAvg/RyF3lmQmGv8/s1600/Chikmagalur.jpg");
+  
+    text-decoration-line: none;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 200px 0px 100px 0px ;
+    margin: 10px 0px 0px 0px;
+    background-size: 1500px 400px;
+
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+    -moz-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 5s;
+    animation-iteration-count: 1; 
+
+}
+.hey
+{
+    width: 100%;
+    font-size: 32px;
+    color: rgba(80, 4, 46, 0.575);
+   background-image:url("https://i1.wp.com/exoticgringo.com/wp-content/uploads/2017/07/mysuru_lalith_mahal_exotic_gringo.jpg?fit=1280%2C720");
+    text-decoration-line: none;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 200px 0px 100px 0px ;
+    margin: 10px 0px 0px 0px;
+    background-size: 1500px 400px;
+
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+    -moz-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 5s;
+    animation-iteration-count: 1; 
+}
+.ola
+{
+    width: 100%;
+    font-size: 32px;
+    color: rgba(62, 49, 133, 0.575);
+   background-image:url("https://static.toiimg.com/photo/imgsize-449549,msid-59703712/59703712.jpg");
+    text-decoration-line: none;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 200px 0px 100px 0px ;
+    margin: 10px 0px 0px 0px;
+    background-size: 1500px 400px;
+
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+    -moz-animation: fadeIn ease 5s;
+    -o-animation: fadeIn ease 5s;
+    -ms-animation: fadeIn ease 5s;
+    animation-iteration-count: 1; 
+
+}
+
+.bang
+{
+    color: blue;
+    font-size: 25px;
+    margin: 0px 0px 0px 0px;
+}
+img{
+    width: 100%;
+    width: 390px;
+    height: 330px;
+    float: right;
+    transition: 2s;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+    
+
+img:hover{
+opacity: .5;
+transition: .9s;
+}
+
+p1
+{
+    font-size: 18px;
+    text-align: justify;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    
+   
+  }
+  
+  .container img {
+    width: 100%;
+    height: 330px;
+    width:450px;
+  }
+  
+  .btn {
+    position: absolute;
+    top: 87%;
+    left: 68%;
+ 
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgba(129, 126, 126, 0.082);
+    color: rgba(78, 21, 233, 0.959);
+    font-size: 15px;
+    
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: right;
+    
+  }
+  
+   .btn:hover {
+    background-color: black;
+  }
+
+  .btn1 {
+    position: absolute;
+    top: 87%;
+    left: 80%;
+    background-color: rgba(129, 126, 126, 0.082);
+    color: rgba(78, 21, 233, 0.959);
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+   
+   
+    font-size: 15px;
+    
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: right;
+    
+  }
+  
+   .btn1:hover {
+    background-color: black;
+  }
+
+  .btn2 {
+    position: absolute;
+    top: 87%;
+    left: 90%;
+ 
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: rgba(129, 126, 126, 0.082);
+    color: rgba(78, 21, 233, 0.959);
+    font-size: 15px;
+    
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: right;
+    
+  }
+  
+   .btn2:hover {
+    background-color: rgb(227, 230, 80);
+    
+  }
+
+  .btn3 {
+    position: absolute;
+    top: 87%;
+    left: 58%;
+    background-color: rgba(129, 126, 126, 0.082);
+    color: rgba(78, 21, 233, 0.959);
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+   
+   
+    font-size: 15px;
+    
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: right;
+    
+  }
+  
+   .btn3:hover {
+    background-color: black;
+  }
+
+p{
+  text-align: justify;
+}
+
+
+
+  .wrapper h1{
+      text-align: center;
+      font-size: 30px;
+      font-family: cursive;
+      color: rgb(179, 128, 67);
+     
+  }
+
+  .img-area{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-items: center;
+     
+     
+    justify-content: center;
+  }
+
+
+  .single-img{
+      padding: 20px 20px 20px;
+      
+
+      background-color: rgba(165, 207, 236, 0.315);
+  }
+  h3{
+      text-align: center;
+      color: rgb(189, 33, 129);
+  }
+  .cat{
+        width: 450px;
+        height: 330px;
+        float: left;
+
+  }
+ 
+  p4
+  {
+   
+    text-align: center;
+    font-size: 20px;
+  }
+  .steel
+  {
+      
+    text-align: center;
+    font-size: 25px;
+  }
+  p3
+  {
+    text-align: justify;
+    white-space: pre-wrap;
+    font-size: 18px;
+    
+    
+  }
+
+.dog
+  {
+      text-align: center;
+      
+      font-size: 30px;
+      font-family: cursive;
+      font-stretch: ultra-condensed;
+      }
+
+p6
+{
+  font-size: 17px;
+  font-family: cursive;
+}
+
+ 

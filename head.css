@@ -1,0 +1,61 @@
+
+  
+
+
+.headbar-item{
+    
+    padding: 0px;
+    width: auto;
+    float:left;
+    
+    border:none;
+    display:block;
+    outline:0px;
+    
+}
+
+.headbar{
+    background-image: linear-gradient(to left, rgb(255, 251, 0), rgba(255,0,0,1));
+    height: 200px;
+    float: left;
+    border:none;
+    display: block;
+    outline: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+    /*position: fixed;
+    top: 0;
+    overflow: hidden; */
+    
+    padding:0px;
+}
+
+.headimg{
+    height:200px; 
+    width : 200px;
+    border-radius: 50%;
+    transition: transform 1s;
+    transition-timing-function: ease-in-out;
+    
+}
+
+.headimg:hover{
+
+   transform: rotate(360deg);
+    cursor: pointer;
+}
+
+.headbar h1{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+    width: 100%;
+    height: auto;
+    color: blueviolet;
+    font-family: cursive;
+    text-shadow: 3px 3px 6px black;
+    
+}
+
+

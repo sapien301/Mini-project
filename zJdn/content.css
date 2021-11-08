@@ -1,0 +1,106 @@
+
+h5
+{
+    
+    background-repeat: no-repeat;
+    background-image:url("https://res-1.cloudinary.com/enchanting/et-web/2015/05/Bangalore-1.jpg");
+    background-size: 1500px 400px;
+    width: 100%;
+  
+  margin: 10px 0px 0px 0px;
+  padding: 200px 0px 100px 0px ;
+
+  
+ 
+    
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    font-size: 40px;
+
+    
+    font-weight: 500;
+    text-transform: capitalize;
+    
+    
+   
+    color: rgba(47, 79, 79, 0.562) ;
+    word-spacing: 10px;
+    
+    
+}
+ppalace 
+{
+    font-size: 28px;
+   
+    
+}
+
+ppark
+{
+    font-size: 28px;
+}
+
+pcubbon
+{
+    font-size: 28px;
+}
+
+proad
+{
+    font-size: 28px;
+    color: goldenrod;
+  
+}
+
+proadc1
+
+{
+    font-size: 18px;
+    text-align: justify;
+}
+ppalacec1
+{
+    font-size: 18px;
+    text-align: justify;
+    
+}
+pcubbonc1
+{
+    font-size: 18px;
+    text-align: justify;
+}
+pparkc1
+{
+    font-size: 18px;
+    text-align: justify;
+}
+h4
+{
+    font-size: 28px; 
+    
+    margin: 0px 0px 0px 0px;
+}
+p1{
+    text-align: justify;
+}
+ img
+{
+   
+    transition: transform .7s;
+    cursor: pointer;
+    border: 2px solid black;
+    float: right;
+}
+
+ img:hover
+{
+   
+    transform: scale(.95);
+    
+    
+  }
+  pc{
+font-size: 28px;
+  }
+
+

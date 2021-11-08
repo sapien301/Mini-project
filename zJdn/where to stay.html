@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("https://www.wallpapers13.com/wp-content/uploads/2016/08/Hotel-New-York-Statue-of-Liberty-in-Las-Vegas-Nevada-USA-HD-Desktop-Wallpaper-1920x1200-1680x1050.jpg");
+
+}
+
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  
+  padding: 0 0px 10px 100px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+  padding: 16px ;
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+  opacity: 2;
+  width:870px;
+  height:190px;
+}
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+  padding: 16px ;
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+  
+  
+  width:400px;
+  height:190px;
+}
+p1 
+{
+    font-size: 25px;
+    color: rgb(29, 165, 35);
+    font-family: cursive;
+}
+
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: darkgoldenrod;
+  font-weight: 700;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 350px;
+  height:150px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: relative;
+  
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+h4
+{
+  white-space: nowrap;
+}
+h2{
+    font-size: 30px;
+    color: tomato;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+</style>
+</head>
+<body>
+
+<h2>Top Bengaluru Hotels</h2>
+
+<div class="row">
+  <div  class="column">
+    <div  class="card">
+       <img src="img/hotel1.jpg" alt="Avatar" style="float:left" style="width:100%" height="150px" width="150px">
+       <br>
+       <p1 style="font-weight: 600;" style="font-size: 25px">Four seasons hotel </p1>
+      
+        
+      <p style="font-size: 16px;">Situated in Bangalore, 29 km from Indian Institute of Science, Bangalore, Four Seasons Hotel Bengaluru at Embassy ONE features accommodation with a restaurant, free private parking, an outdoor... Super clean and spacious. Staffs are really more than expectations</p>
+     
+   Click On             
+      <div class="popup" onclick="myFunction()"> 1BHK for 24Hrs (3,999Rs only)          
+          <span class="popuptext" id="myPopup">
+          <br>
+          <br>
+          Thank you for booking a room in our hotel.<br>We are waiting for your arrival.</span>      
+      </div> 
+     <script>
+      // When the user clicks on div, open the popup
+      function myFunction() {
+        var popup = document.getElementById("myPopup");
+        popup.classList.toggle("show");
+      }
+      </script>
+     
+  <hr/>
+  </div>
+  </div>
+
+  <div class="column">
+    <div  class="card1">
+      <h3 style="color: darkgoldenrod;">Address</h3> 
+      <p>Govindapura, Nagavara Bengaluru, Karnataka 560045 India <br>
+          Phone:789 657 5657, 687 456 8823
+          <br>
+          Mobile:345 789
+      </p>
+     
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="img/hotel2.jpg" alt="Avatar" style="float:left" style="width:100%" height="150px" width="150px">
+      <p1 style="font-weight: 600;">The Oberoi Hotel</p1>
+      <p>Award-winning gardens with century-old raintrees are featured throughout The Oberoi Bangalore, a 5-star property on the prestigious Mahatma Gandhi Road. Pampering spa treatments and a gym are provided. Personal butlers and room service are available 24 hours. Complimentary WiFi is available in all rooms.</p>
+      Click On             
+      <div class="popup" onclick="myFunction()"> 1BHK for 24Hrs (3,500Rs only)          
+          <span class="popuptext" id="myPopup">
+          <br>
+          <br>
+          Thank you for booking a room in our hotel.<br>We are waiting for your arrival.</span>      
+      </div> 
+     <script>
+      // When the user clicks on div, open the popup
+      function myFunction() {
+        var popup = document.getElementById("myPopup");
+        popup.classList.toggle("show");
+      }
+      </script>
+     
+    <hr/>
+    </div>
+  </div>
+<div class="column">
+    <div  class="card1">
+      <h3 style="color: darkgoldenrod;">Address</h3>
+      <p>37-39, Mahatma Gandhi Road , 560001 Bangalore, India <br>
+        Phone:789 657 5657, 687 456 8823
+        <br>
+        Mobile:345 789</p>
+      
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div  class="column">
+    <div  class="card">
+       <img src="img/hotel3.jpg" alt="Avatar" style="float:left" style="width:100%" height="150px" width="150px">
+       <br>
+       <p1 style="font-weight: 600;" style="font-size: 25px">WelcomHotel Bengaluru </p1>
+      <p>Offering an outdoor pool, a fitness centre and a spa and wellness centre, WelcomHotel Bengaluru is located in Bangalore. It operates a 24-hour front desk to welcome guests at all hours. The hotel also offers happy hours at the bar lounge Swizzle.
+      </p>
+        
+      
+   Click On   <div class="popup" onclick="myFunction()"> 1BHK for 24Hrs  (4,200Rs only)          
+          <span class="popuptext" id="myPopup">
+            <br>
+          <br>
+          Thank you for booking a room in our hotel.<br>We are waiting for your arrival.</span>      
+      </div> 
+     <script>
+      // When the user clicks on div, open the popup
+      function myFunction() {
+        var popup = document.getElementById("myPopup");
+        popup.classList.toggle("show");
+      }
+      </script>
+     
+  <hr/>
+  </div>
+  </div>
+
+  <div class="column">
+    <div  class="card1">
+      <h3 style="color: darkgoldenrod;">Address</h3> 
+      <p>46 Richmond Road (off MG Road), Near Hosmat Hospital, 560006 Bangalore, India <br>
+          Phone:789 657 5657, 687 456 8823
+          <br>
+          Mobile:345 789
+      </p>
+     
+    </div>
+  </div>
+
+  <div class="row">
+    <div  class="column">
+      <div  class="card">
+         <img src="img/hotel4.jpg" alt="Avatar" style="float:left" style="width:100%" height="150px" width="150px">
+         <br>
+         <p1 style="font-weight: 600;" style="font-size: 25px">The Ritz - Carlton </p1>
+        <p> The Ritz-Carlton, Bangalore is centrally located in the heart of Bangalore in close proximity to the finest in shopping, dining and entertainment experiences. Situated in Bangalore, close to UB City Mall, Commercial Street and Brigade Road, </p>
+        
+     Click On   <div class="popup" onclick="myFunction()"> 1BHK for 24Hrs  (4,000Rs only)          
+            <span class="popuptext" id="myPopup">
+              <br>
+            <br>
+            Thank you for booking a room in our hotel.<br>We are waiting for your arrival.</span>      
+        </div> 
+       <script>
+        // When the user clicks on div, open the popup
+        function myFunction() {
+          var popup = document.getElementById("myPopup");
+          popup.classList.toggle("show");
+        }
+        </script>
+       
+    <hr/>
+    </div>
+    </div>
+  
+    <div class="column">
+      <div  class="card1">
+        <h3 style="color: darkgoldenrod;">Address</h3 > 
+        <p>99,Residency Road, 560025 Bangalore, India <br>
+            Phone:789 657 5657, 687 456 8823
+            <br>
+            Mobile:345 789
+        </p>
+       </div>
+    </div>
+
+    <div class="row">
+      <div  class="column">
+        <div  class="card">
+           <img src="img/hotel5.jpg" alt="Avatar" style="float:left" style="width:100%" height="150px" width="150px">
+           <br>
+           <p1 style="font-weight: 600;" style="font-size: 25px">The Leela Palace </p1>
+          
+            
+          <p style="font-size: 16px;">Nestled in the midst of lush gardens that spread across 7 acres, The Leela Palace Bangalore features décor reflecting the grandeur of the bygone era and boasts of facilities such as an outdoor swimming pool, a spa and wellness centre.</p>
+          Click On 
+          <div class="popup" onclick="myFunction()"> 1BHK for 24Hrs (4,500Rs only)          
+              <span class="popuptext" id="myPopup">
+              <br>
+              <br>
+              Thank you for booking a room in our hotel.<br>We are waiting for your arrival.</span>      
+          </div> 
+         <script>
+          // When the user clicks on div, open the popup
+          function myFunction() {
+            var popup = document.getElementById("myPopup");
+            popup.classList.toggle("show");
+          }
+          </script>
+         
+      <hr/>
+      </div>
+      </div>
+    
+      <div class="column">
+        <div  class="card1">
+          <h3 style="color: darkgoldenrod;">Address</h3> 
+          <p>23 Old Airport Road, 560008 Bangalore, India <br>
+              Phone:789 657 5657, 687 456 8823
+              <br>
+              Mobile:345 789
+          </p>
+         
+        </div>
+      </div>
+      
+      <div class="row">
+        <div  class="column">
+          <div  class="card">
+             <img src="img/hotel6.jpg" alt="Avatar" style="float:left" style="width:100%" height="150px" width="150px">
+             <br>
+             <p1 style="font-weight: 600;" style="font-size: 25px">Taj MG Road Bengaluru</p1>
+            
+              
+            <p style="font-size: 16px;">Taj MG Road Bengaluru is located in the centre of Bangalore's business and entertainment area, within 2 km from the Government Museum. 
+
+             Taj MG Road Bengaluru is a 5-minute walk from Garuda Mall and a 10-minute drive from Sree Kanteerava Stadium.</p>
+            Click On 
+            <div class="popup" onclick="myFunction()"> 1BHK for 24Hrs (4,000Rs only)         
+                <span class="popuptext" id="myPopup">
+                <br>
+                <br>
+                Thank you for booking a room in our hotel.<br>We are waiting for your arrival.</span>      
+            </div> 
+           <script>
+            // When the user clicks on div, open the popup
+            function myFunction() {
+              var popup = document.getElementById("myPopup");
+              popup.classList.toggle("show");
+            }
+            </script>
+           
+        <hr/>
+        </div>
+        </div>
+      
+        <div class="column">
+          <div  class="card1">
+            <h3 style="color: darkgoldenrod;">Address</h3> 
+            <p>41/3 M G Road, 560001 Bangalore, India <br>
+                Phone:789 657 5657, 687 456 8823
+                <br>
+                Mobile:345 789
+            </p>
+           
+          </div>
+        </div>
+
+</body>
+</html>

@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("https://www.wallpapers13.com/wp-content/uploads/2016/08/Hotel-New-York-Statue-of-Liberty-in-Las-Vegas-Nevada-USA-HD-Desktop-Wallpaper-1920x1200-1680x1050.jpg");
+
+}
+
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  
+  padding: 0 0px 10px 100px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+  padding: 16px ;
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+  opacity: 2;
+  width:870px;
+  height:190px;
+}
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+  padding: 16px ;
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+  
+  
+  width:400px;
+  height:190px;
+}
+p1 
+{
+    font-size: 25px;
+    color: rgb(29, 165, 35);
+    font-family: cursive;
+}
+
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: darkgoldenrod;
+  font-weight: 700;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 350px;
+  height:150px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: relative;
+  
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+h4
+{
+  white-space: nowrap;
+}
+h2{
+    font-size: 30px;
+    color: tomato;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+</style>
+</head>
+<body>
+
+<h2 >Top Udupi Hotels</h2>
+
+
+<div class="row">
+  <div  class="column">
+    <div  class="card">
+       <img src="img/hotel21.jpg" alt="Avatar" style="float:left" style="width:100%" height="150px" width="150px">
+       <br>
+       <p1 style="font-weight: 600;" style="font-size: 25px">White Lotus Hotel </p1>
+      
+        
+      <p style="font-size: 16px;">White Lotus Hotel features free WiFi and views of city in Udupi. Boasting a 24-hour front desk, this property also provides guests with a restaurant. The accommodation provides a cash machine and room service for guests.
+    </p>
+   Click On             
+      <div class="popup" onclick="myFunction()"> 1BHK for 24Hrs (1,999Rs only)          
+          <span class="popuptext" id="myPopup">
+          <br>
+          <br>
+          Thank you for booking a room in our hotel.<br>We are waiting for your arrival.</span>  
+          <br>    
+      </div> 
+     
+     <script>
+      // When the user clicks on div, open the popup
+      function myFunction() {
+        var popup = document.getElementById("myPopup");
+        popup.classList.toggle("show");
+      }
+      </script>
+     
+  <hr/>
+  </div>
+  </div>
+
+  <div class="column">
+    <div  class="card1">
+      <h3 style="color: darkgoldenrod;">Address</h3> 
+      <p> Green Park Premier, Maruthi Veethika Road Thenkapete, Udupi, Karnataka, 576101 Udupi, India<br>
+        Phone:789 657 5657, 687 456 8823
+          <br>
+          Mobile:345 789
+      </p>
+     
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="img/hotel22.jpg" alt="Avatar" style="float:left" style="width:100%" height="150px" width="150px">
+      <p1 style="font-weight: 600;">Aryaan Resort</p1>
+      <p>Facing the beachfront, Aryaan Resort offers 4-star accommodation in Udupi and features a bar, garden and tennis court. Featuring a 24-hour front desk, this property also welcomes guests with a restaurant, a water park and an outdoor pool.</p>
+
+        Click On             
+      <div class="popup" onclick="myFunction()"> 1BHK for 24Hrs (3,000Rs only)          
+          <span class="popuptext" id="myPopup">
+          <br>
+          <br>
+          Thank you for booking a room in our hotel.<br>We are waiting for your arrival.</span>      
+      </div> 
+     <script>
+      // When the user clicks on div, open the popup
+      function myFunction() {
+        var popup = document.getElementById("myPopup");
+        popup.classList.toggle("show");
+      }
+      </script>
+     
+    <hr/>
+    </div>
+  </div>
+<div class="column">
+    <div  class="card1">
+      <h3 style="color: darkgoldenrod;">Address</h3>
+      <p>Kadike Beach Road Badanidiyoor, 576115 Udupi, India <br>
+        Phone:789 657 5657, 687 456 8823
+        <br>
+        Mobile:345 789</p>
+      <p></p>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div  class="column">
+    <div  class="card">
+       <img src="img/hotel23.jpg" alt="Avatar" style="float:left" style="width:100%" height="150px" width="150px">
+       <br>
+       <p1 style="font-weight: 600;" style="font-size: 25px">Hotel Sharada International </p1>
+      <p>Hotel Sharada International in Udupi provides accommodation with a bar and a garden. Among the facilities of this property are a restaurant, a 24-hour front desk and room service, along with free WiFi throughout the property. 
+    </p>
+        
+      
+   Click On   <div class="popup" onclick="myFunction()"> 1BHK for 24Hrs  (4,200Rs only)          
+          <span class="popuptext" id="myPopup">
+            <br>
+          <br>
+          Thank you for booking a room in our hotel.<br>We are waiting for your arrival.</span>      
+      </div> 
+     <script>
+      // When the user clicks on div, open the popup
+      function myFunction() {
+        var popup = document.getElementById("myPopup");
+        popup.classList.toggle("show");
+      }
+      </script>
+     
+  <hr/>
+  </div>
+  </div>
+
+  <div class="column">
+    <div  class="card1">
+      <h3 style="color: darkgoldenrod;">Address</h3> 
+      <p>N.H 17, Bananje, Adi-udupi, 576103 Udupi, India<br>
+          Phone:789 657 5657, 687 456 8823
+          <br>
+          Mobile:345 789
+      </p>
+     
+    </div>
+  </div>
+
+  <div class="row">
+    <div  class="column">
+      <div  class="card">
+         <img src="img/hotel24.jpg" alt="Avatar" style="float:left" style="width:100%" height="150px" width="150px">
+         <br>
+         <p1 style="font-weight: 600;" style="font-size: 25px">Fortune Plaza Hotel</p1>
+        <p> 
+            Situated in Udupi, Fortune Plaza Hotel offers accommodation with free WiFi and flat-screen TV, as well as a restaurant and a bar.
+
+There is a fully equipped private bathroom with shower and free toiletries.
+
+The bed and breakfast offers a continental or buffet breakfast.</p>
+
+
+
+
+        Click On   <div class="popup" onclick="myFunction()"> 1BHK for 24Hrs  (4,000Rs only)          
+            <span class="popuptext" id="myPopup">
+              <br>
+            <br>
+            Thank you for booking a room in our hotel.<br>We are waiting for your arrival.</span>      
+        </div> 
+       <script>
+        // When the user clicks on div, open the popup
+        function myFunction() {
+          var popup = document.getElementById("myPopup");
+          popup.classList.toggle("show");
+        }
+        </script>
+       
+    <hr/>
+    </div>
+    </div>
+  
+    <div class="column">
+      <div  class="card1">
+        <h3 style="color: darkgoldenrod;">Address</h3 > 
+        <p>NH 66 Varamballi Village Brahmavara,Udupi, 576213 Udupi, India<br>
+            Phone:789 657 5657, 687 456 8823
+            <br>
+            Mobile:345 789
+        </p>
+       </div>
+    </div>
+
+    <div class="row">
+      <div  class="column">
+        <div  class="card">
+           <img src="img/hotel25.jpg" alt="Avatar" style="float:left" style="width:100%" height="150px" width="150px">
+           <br>
+           <p1 style="font-weight: 600;" style="font-size: 25px">The Ocean Pearl  </p1>
+          
+            
+          <p style="font-size: 16px;">The air conditioned rooms feature a seating area to relax in after a busy day. The rooms come with a private bathroom. For your comfort, you will find bathrobes and free toiletries. Interconnected rooms are available. Room service is provided.</p>
+          Click On 
+          <div class="popup" onclick="myFunction()"> 1BHK for 24Hrs (4,900Rs only)          
+              <span class="popuptext" id="myPopup">
+              <br>
+              <br>
+              Thank you for booking a room in our hotel.<br>We are waiting for your arrival.</span>      
+          </div> 
+         <script>
+          // When the user clicks on div, open the popup
+          function myFunction() {
+            var popup = document.getElementById("myPopup");
+            popup.classList.toggle("show");
+          }
+          </script>
+         
+      <hr/>
+      </div>
+      </div>
+    
+      <div class="column">
+        <div  class="card1">
+          <h3 style="color: darkgoldenrod;">Address</h3> 
+          <p>S..D. No 1 , Udupi - Manipal Road Kadiyali junction , Kadiyali, 576102 Udupi, India  <br>
+              Phone:789 657 5657, 687 456 8823
+              <br>
+              Mobile:345 789
+          </p>
+         
+        </div>
+      </div>
+      
+      <div class="row">
+        <div  class="column">
+          <div  class="card">
+             <img src="img/hotel26.jpg" alt="Avatar" style="float:left" style="width:100%" height="150px" width="150px">
+             <br>
+             <p1 style="font-weight: 600;" style="font-size: 25px">Hotel Sri Krishna Residency </p1>
+            
+              
+            <p style="font-size: 16px;">At Hotel Sri Krishna Residency you will find a 24-hour front desk. Other facilities offered at the property include meeting facilities, a ticket service and a tour desk. The property offers free parking.</p>
+            Click On 
+            <div class="popup" onclick="myFunction()"> 1BHK for 24Hrs (4,000Rs only)         
+                <span class="popuptext" id="myPopup">
+                <br>
+                <br>
+                Thank you for booking a room in our hotel.<br>We are waiting for your arrival.</span>      
+            </div> 
+           <script>
+            // When the user clicks on div, open the popup
+            function myFunction() {
+              var popup = document.getElementById("myPopup");
+              popup.classList.toggle("show");
+            }
+            </script>
+           
+        <hr/>
+        </div>
+        </div>
+      
+        <div class="column">
+          <div  class="card1">
+            <h3 style="color: darkgoldenrod;">Address</h3> 
+            <p>Badagupete Road, Karnataka, 576101 Udupi, India<br>
+                Phone:789 657 5657, 687 456 8823
+                <br>
+                Mobile:345 789
+            </p>
+           
+          </div>
+        </div>
+
+</body>
+</html>

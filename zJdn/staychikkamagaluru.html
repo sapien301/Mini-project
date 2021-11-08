@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("https://www.wallpapers13.com/wp-content/uploads/2016/08/Hotel-New-York-Statue-of-Liberty-in-Las-Vegas-Nevada-USA-HD-Desktop-Wallpaper-1920x1200-1680x1050.jpg");
+
+}
+
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  
+  padding: 0 0px 10px 100px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+  padding: 16px ;
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+  opacity: 2;
+  width:870px;
+  height:190px;
+}
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+  padding: 16px ;
+  text-align: center;
+  background-color: white;
+  border-radius: 5px;
+  
+  
+  width:400px;
+  height:190px;
+}
+p1 
+{
+    font-size: 25px;
+    color: rgb(29, 165, 35);
+    font-family: cursive;
+}
+
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: darkgoldenrod;
+  font-weight: 700;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 350px;
+  height:150px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: relative;
+  
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+h4
+{
+  white-space: nowrap;
+}
+h2{
+    font-size: 30px;
+    color: tomato;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+</style>
+</head>
+<body>
+
+<h2>Top Chikkamagaluru Hotels</h2>
+
+<div class="row">
+  <div  class="column">
+    <div  class="card">
+       <img src="img/hotel13.jpg" alt="Avatar" style="float:left" style="width:100%" height="150px" width="150px">
+       <br>
+       <p1 style="font-weight: 600;" style="font-size: 25px">Robusta Inn </p1>
+      
+        
+      <p style="font-size: 16px;">Located in Chikmagaluru, Robusta Inn offers a terrace. This 3-star hotel offers a 24-hour front desk, room service and free WiFi. Free private parking is available and the hotel also provides car hire for guests who want to explore the surrounding area.
+    </p>
+   Click On             
+      <div class="popup" onclick="myFunction()"> 1BHK for 24Hrs (2,999Rs only)          
+          <span class="popuptext" id="myPopup">
+          <br>
+          <br>
+          Thank you for booking a room in our hotel.<br>We are waiting for your arrival.</span>  
+          <br>    
+      </div> 
+     
+     <script>
+      // When the user clicks on div, open the popup
+      function myFunction() {
+        var popup = document.getElementById("myPopup");
+        popup.classList.toggle("show");
+      }
+      </script>
+     
+  <hr/>
+  </div>
+  </div>
+
+  <div class="column">
+    <div  class="card1">
+      <h3 style="color: darkgoldenrod;">Address</h3> 
+      <p> IG road chikmagaluru Robusta inn hotel, 577101 Chikmagaluru, India<br>
+        Phone:789 657 5657, 687 456 8823
+          <br>
+          Mobile:345 789
+      </p>
+     
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="img/hotel14.jpg" alt="Avatar" style="float:left" style="width:100%" height="150px" width="150px">
+      <p1 style="font-weight: 600;">Treebo Trend Orchid Hotel</p1>
+      <p>Treebo Trend Orchid Hotel features rooms in Chikmagalūr. The property offers free private parking and free WiFi.
+
+        The units come with air conditioning, a flat-screen TV with satellite channels, a kettle, a shower, free toiletries and a wardrobe.</p>
+      Click On             
+      <div class="popup" onclick="myFunction()"> 1BHK for 24Hrs (3,000Rs only)          
+          <span class="popuptext" id="myPopup">
+          <br>
+          <br>
+          Thank you for booking a room in our hotel.<br>We are waiting for your arrival.</span>      
+      </div> 
+     <script>
+      // When the user clicks on div, open the popup
+      function myFunction() {
+        var popup = document.getElementById("myPopup");
+        popup.classList.toggle("show");
+      }
+      </script>
+     
+    <hr/>
+    </div>
+  </div>
+<div class="column">
+    <div  class="card1">
+      <h3 style="color: darkgoldenrod;">Address</h3>
+      <p>Indira Gandhi Rd Cross,MG Road, 577101 Chikmagaluru, India<br>
+        Phone:789 657 5657, 687 456 8823
+        <br>
+        Mobile:345 789</p>
+      <p></p>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div  class="column">
+    <div  class="card">
+       <img src="img/hotel15.jpg" alt="Avatar" style="float:left" style="width:100%" height="150px" width="150px">
+       <br>
+       <p1 style="font-weight: 600;" style="font-size: 25px">Vismita County </p1>
+      <p>Offering mountain views and located in Vastare, Chikmagalur Vismita County features accommodation and a garden. The accommodation has a spa bath.
+
+        Every unit features a private bathroom and bath, air conditioning and a flat-screen TV. 
+    </p>
+        
+      
+   Click On   <div class="popup" onclick="myFunction()"> 1BHK for 24Hrs  (4,200Rs only)          
+          <span class="popuptext" id="myPopup">
+            <br>
+          <br>
+          Thank you for booking a room in our hotel.<br>We are waiting for your arrival.</span>      
+      </div> 
+     <script>
+      // When the user clicks on div, open the popup
+      function myFunction() {
+        var popup = document.getElementById("myPopup");
+        popup.classList.toggle("show");
+      }
+      </script>
+     
+  <hr/>
+  </div>
+  </div>
+
+  <div class="column">
+    <div  class="card1">
+      <h3 style="color: darkgoldenrod;">Address</h3> 
+      <p>State Highway 64 ALADGUDDE CROSS, BASKAL ROAD, VASTARE, 577133 Chikmagaluru, India<br>
+          Phone:789 657 5657, 687 456 8823
+          <br>
+          Mobile:345 789
+      </p>
+     
+    </div>
+  </div>
+
+  <div class="row">
+    <div  class="column">
+      <div  class="card">
+         <img src="img/hotel16.jpg" alt="Avatar" style="float:left" style="width:100%" height="150px" width="150px">
+         <br>
+         <p1 style="font-weight: 600;" style="font-size: 25px">The Serai Chickmagaluru </p1>
+        <p> Set amidst a coffee plantation, The Serai Chickmagalur offers beautiful 4-star accommodation with a private swimming pool. This property boasts 2 dining choices and a well-appointed spa.</p>
+        Click On   <div class="popup" onclick="myFunction()"> 1BHK for 24Hrs  (4,000Rs only)          
+            <span class="popuptext" id="myPopup">
+              <br>
+            <br>
+            Thank you for booking a room in our hotel.<br>We are waiting for your arrival.</span>      
+        </div> 
+       <script>
+        // When the user clicks on div, open the popup
+        function myFunction() {
+          var popup = document.getElementById("myPopup");
+          popup.classList.toggle("show");
+        }
+        </script>
+       
+    <hr/>
+    </div>
+    </div>
+  
+    <div class="column">
+      <div  class="card1">
+        <h3 style="color: darkgoldenrod;">Address</h3 > 
+        <p>Mugthihalli Post, K M Road , 577133 Chikmagaluru, India <br>
+            Phone:789 657 5657, 687 456 8823
+            <br>
+            Mobile:345 789
+        </p>
+       </div>
+    </div>
+
+    <div class="row">
+      <div  class="column">
+        <div  class="card">
+           <img src="img/hotel19.jpg" alt="Avatar" style="float:left" style="width:100%" height="150px" width="150px">
+           <br>
+           <p1 style="font-weight: 600;" style="font-size: 25px">The Blossom Resort  </p1>
+          
+            
+          <p style="font-size: 16px;">Set in Chikmagaluru, The Blossom Resort offers a garden and terrace. Among the facilities of this property are a restaurant, a 24-hour front desk and room service, along with free WiFi. The resort has an indoor pool and a kids' club.</p>
+          Click On 
+          <div class="popup" onclick="myFunction()"> 1BHK for 24Hrs (4,900Rs only)          
+              <span class="popuptext" id="myPopup">
+              <br>
+              <br>
+              Thank you for booking a room in our hotel.<br>We are waiting for your arrival.</span>      
+          </div> 
+         <script>
+          // When the user clicks on div, open the popup
+          function myFunction() {
+            var popup = document.getElementById("myPopup");
+            popup.classList.toggle("show");
+          }
+          </script>
+         
+      <hr/>
+      </div>
+      </div>
+    
+      <div class="column">
+        <div  class="card1">
+          <h3 style="color: darkgoldenrod;">Address</h3> 
+          <p>State Highway 57 Thogarihankal, chikmagaluru, 577137 Chikmagaluru, India <br>
+              Phone:789 657 5657, 687 456 8823
+              <br>
+              Mobile:345 789
+          </p>
+         
+        </div>
+      </div>
+      
+      <div class="row">
+        <div  class="column">
+          <div  class="card">
+             <img src="img/hotel12.jpg" alt="Avatar" style="float:left" style="width:100%" height="150px" width="150px">
+             <br>
+             <p1 style="font-weight: 600;" style="font-size: 25px">Hotel Aadrika</p1>
+            
+              
+            <p style="font-size: 16px;">The units come with air conditioning, a flat-screen TV with cable channels, a kettle, a shower, free toiletries and a desk. At the hotel all rooms are equipped with a wardrobe and a private bathroom.</p>
+            Click On 
+            <div class="popup" onclick="myFunction()"> 1BHK for 24Hrs (4,000Rs only)         
+                <span class="popuptext" id="myPopup">
+                <br>
+                <br>
+                Thank you for booking a room in our hotel.<br>We are waiting for your arrival.</span>      
+            </div> 
+           <script>
+            // When the user clicks on div, open the popup
+            function myFunction() {
+              var popup = document.getElementById("myPopup");
+              popup.classList.toggle("show");
+            }
+            </script>
+           
+        <hr/>
+        </div>
+        </div>
+      
+        <div class="column">
+          <div  class="card1">
+            <h3 style="color: darkgoldenrod;">Address</h3> 
+            <p>Milan Theatre Road, 577101 Chikmagalūr, India<br>
+                Phone:789 657 5657, 687 456 8823
+                <br>
+                Mobile:345 789
+            </p>
+           
+          </div>
+        </div>
+
+</body>
+</html>

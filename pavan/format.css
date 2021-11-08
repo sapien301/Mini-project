@@ -1,0 +1,32 @@
+
+ 
+img{
+    width: 100%;
+    width: 450px;
+    height: 330px;
+    float: up;
+    float: left;
+    margin-right: 20px;
+    transition: 2s;
+    cursor: pointer;
+    border:3px solid yellow;
+}
+
+    
+
+img:hover{
+transform: scale(.95);
+}
+
+p1
+{
+    font-size: 18px;
+    text-align: right;
+}
+
+
+
+
+
+
+

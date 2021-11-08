@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="head.css"> 
+<link rel="stylesheet" href="navigation.css"> 
+<link rel="stylesheet" href="footer.css">   
+<link rel="stylesheet" href="gallery.css"> 
+<link rel="stylesheet" href="home-body.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gallery</title>
+
+<head>
+
+
+<div class="headbar ">
+    <a href="home.html"  class="headbar-item" ><b><img src="img/logo.jpg" class="headimg" alt="logo" ></b></a>
+    <h1>TourKarnatka.com</h1>
+  </div>
+  <div class="navbar">
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="news.html">News</a></li>
+    
+        <li style="background-color:red;"><a href="gallery.html" >Gallery</a></li>
+        <li class="Cau" style="float: right;"><a href="contact.html">Contact</a></li>
+        <li class="Cau" style="float: right;"><a  href="about.html">About us</a></li>
+        
+        
+      </li>
+    </ul>
+  </div>
+</head>
+<body style="background-color:lightblue">
+
+<h1 style="margin: 30px 0px 50px 30px; " class="blinktext">Photos</h1>
+<div class="container">
+  <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+  <img id="expandedImg" style="width:100%">
+  <div id="imgtext"></div>
+</div>
+<!-- The four columns -->
+
+<div class="row">
+    
+  <div class="column">
+    <img src="img/1.jpeg" alt="Banglore Palace"  onclick="myFunction(this);">
+      
+  </div>
+  <div class="column">
+    <img src="img/2.jpeg" alt="Bannerghatta National Park"  onclick="myFunction(this);">
+    
+  </div>
+  <div class="column">
+    <img src="img/3.jpeg" alt="Cubbon Park"  onclick="myFunction(this);">
+    
+  </div>
+  <div class="column">
+    <img src="img/4.jpeg" alt="Lal Bagh"  onclick="myFunction(this);">
+    
+  </div>
+</div>
+
+<div class="row">
+    
+  <div class="column">
+    <img src="img/5.jpg" alt="Mysore Zoo"  onclick="myFunction(this);">
+      
+  </div>
+  <div class="column">
+    <img src="img/6.jpg" alt="Mysore Palace"  onclick="myFunction(this);">
+    
+  </div>
+  <div class="column">
+    <img src="img/hampi1.jpg" alt="Hampi"  onclick="myFunction(this);">
+    
+  </div>
+
+  <div class="column">
+    <img src="img/st.marys7.jpg" alt="St. Mary Island"  onclick="myFunction(this);">
+    
+  </div>
+
+  <div class="row">
+    
+    <div class="column">
+      <img src="img/gallery/bull.jpg" alt="Bull Race"  onclick="myFunction(this);">
+        
+    </div>
+    <div class="column">
+      <img src="img/gallery/chikka avrekalu.jpg" alt="Chikka Avrekalu"  onclick="myFunction(this);">
+      
+    </div>
+    <div class="column">
+      <img src="img/gallery/dharmasthala1.jpg" alt="Dharmasthala"  onclick="myFunction(this);">
+      
+    </div>
+    <div class="column">
+      <img src="img/gallery/dosa1.jpg" alt="Dosa"  onclick="myFunction(this);">
+      
+    </div>
+  </div>
+
+  <div class="row">
+    
+    <div class="column">
+      <img src="img/gallery/freedom fightes park.png" alt="Freedom Park,Bengaluru"  onclick="myFunction(this);">
+        
+    </div>
+    <div class="column">
+      <img src="img/gallery/kudlu falls.jpg" alt="Kudlu falls"  onclick="myFunction(this);">
+      
+    </div>
+    <div class="column">
+      <img src="img/gallery/mg road.jpg" alt="M G Road,Bengaluru"  onclick="myFunction(this);">
+      
+    </div>
+    <div class="column">
+      <img src="img/gallery/Mirjan_Fort.jpg" alt="Mirjan Fort"  onclick="myFunction(this);">
+      
+    </div>
+  </div>
+
+  <div class="row">
+    
+    <div class="column">
+      <img src="img/gallery/murudeshwara.jpg" alt="Murdeshwara"  onclick="myFunction(this);">
+        
+    </div>
+    <div class="column">
+      <img src="img/gallery/OM.jpg" alt="Om Beach"  onclick="myFunction(this);">
+      
+    </div>
+    <div class="column">
+      <img src="img/gallery/udupi Neer_Dose.JPG" alt="Neer Dose"  onclick="myFunction(this);">
+      
+    </div>
+    <div class="column">
+      <img src="img/gallery/yana2.JPG" alt="Yana"  onclick="myFunction(this);">
+      
+    </div>
+  </div>
+
+
+
+
+
+
+<script>
+function myFunction(imgs) {
+  var expandImg = document.getElementById("expandedImg");
+  var imgText = document.getElementById("imgtext");
+  expandImg.src = imgs.src;
+  imgText.innerHTML = imgs.alt;
+  expandImg.parentElement.style.display = "block";
+}
+</script>
+
+</body>
+
+<footer>
+    <div  class="foot-cont">
+      <div class="contact">
+        <h2>Contact</h2>
+        Bengaluru<br>
+        Karnataka,India<br>
+        Phone: +91 762872455<br>
+        Email: mail@mail.com<br>
+      </div>
+    <div class="fuo">
+      <h3 class="center" >Find Us On</h6><br>
+        <div class="center ">
+        <i><img class="fuo-icon" src="img/fb2.png" alt=""></i>
+        <i><img class="fuo-icon"src="img/ig.png" alt=""></i>
+        <i><img class="fuo-icon" src="img/twit.png" alt=""></i>
+      </div>
+    </div>
+    </div>
+  </footer>
+</html>
